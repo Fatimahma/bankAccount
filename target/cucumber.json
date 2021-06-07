@@ -1,0 +1,203 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1268811800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on techfios login page",
+            "match": {
+              "location": "AddBankAccountStepDef.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3570710500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddBankAccountStepDef.beforeRun()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User should be able to login with valid credentials",
+        "description": "and open a new account",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 156472000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters the username as \"demo@techfios.com\" and password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 29
+                },
+                {
+                  "val": "abc123",
+                  "offset": 65
+                }
+              ],
+              "location": "AddBankAccountStepDef.user_enters_the_username_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1150289600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "AddBankAccountStepDef.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494365500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to see the dashboard",
+            "match": {
+              "location": "AddBankAccountStepDef.user_should_be_able_to_see_the_dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216740200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on bank and cash",
+            "match": {
+              "location": "AddBankAccountStepDef.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 613844000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on new account",
+            "match": {
+              "location": "AddBankAccountStepDef.user_clicks_on_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2246436000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user fill up the form entering \"myAccount\"and \"personal\"and \"1000\"and \"7654321\"and \"John\"and \"987654321\"and \"www.bankofamerican.com\" and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myAccount",
+                  "offset": 32
+                },
+                {
+                  "val": "personal",
+                  "offset": 47
+                },
+                {
+                  "val": "1000",
+                  "offset": 61
+                },
+                {
+                  "val": "7654321",
+                  "offset": 71
+                },
+                {
+                  "val": "John",
+                  "offset": 84
+                },
+                {
+                  "val": "987654321",
+                  "offset": 94
+                },
+                {
+                  "val": "www.bankofamerican.com",
+                  "offset": 109
+                }
+              ],
+              "location": "AddBankAccountStepDef.user_fill_up_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212581300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be able to see validate",
+            "match": {
+              "location": "AddBankAccountStepDef.user_should_be_able_to_see_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@addBankAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/AddBankAccount.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@addBankAccount"
+      }
+    ]
+  }
+]
